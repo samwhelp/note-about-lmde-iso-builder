@@ -13,6 +13,7 @@
 ## 主題
 
 * [Respin](#respin)
+* [Live Account](#live-account)
 * [相關連結](#相關連結)
 
 
@@ -25,6 +26,30 @@
 | [lmde-iso-builder-remix-base](https://github.com/samwhelp/lmde-iso-builder-remix-base) | [lmde-iso-builder-respin-base](https://github.com/samwhelp/lmde-iso-builder-respin-base) |
 | [lmde-iso-builder-remix-cinnamon](https://github.com/samwhelp/lmde-iso-builder-remix-cinnamon) | [lmde-iso-builder-respin-cinnamon](https://github.com/samwhelp/lmde-iso-builder-respin-cinnamon) |
 | [lmde-iso-builder-remix-xfce](https://github.com/samwhelp/lmde-iso-builder-remix-xfce) | [lmde-iso-builder-respin-xfce](https://github.com/samwhelp/lmde-iso-builder-respin-xfce) |
+
+
+
+
+## Live Account
+
+| Account  | Value  |
+| -------- | ------ |
+| Username | `live` |
+| Password | `live` |
+
+
+若想要更改目前帳號的密碼，可以執行下面指令
+
+``` sh
+sudo passwd $(whoami)
+```
+
+
+若想要移除目前帳號的密碼，可以執行下面指令
+
+``` sh
+sudo passwd -d $(whoami)
+```
 
 
 
